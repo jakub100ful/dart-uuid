@@ -127,7 +127,7 @@ class TimeUuidGenerator {
   int get clockSequence => _clockSeq;
 
   /// Returns Node ID for this generator
-  Uint8List get nodeId => _nodeId;
+  Uint8List get nodeId => _nodeId.asUnmodifiableView();
 
   /// Generates UUID for current time
   Uuid generate() {

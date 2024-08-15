@@ -4,7 +4,7 @@ version: 1.0.0
 uploader: Jakub Bebenek <jakub.bebenek@gmail.com>
 homepage: https://github.com/jakub100ful/dart-uuid
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>3.3.0'
 dependencies:
   crypto: ^3.0.0
 dev_dependencies:
