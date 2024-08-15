@@ -36,13 +36,13 @@ dependencies:
 2. Run `pub get` (`flutter packages get` for Flutter)
 3. Import
 ```dart
-import 'package:uuid_type/uuid_type.dart';
+import 'package:dart_uuid/uuid_type.dart';
 ```
 
 ### Usage
 Generate UUIDs
 ```dart
-import 'package:uuid_type/uuid_type.dart';
+import 'package:dart_uuid/uuid_type.dart';
 
 void main() {
   var u = TimeUuidGenerator().generate();

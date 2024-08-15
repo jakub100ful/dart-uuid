@@ -1,7 +1,7 @@
 import 'dart:math';
 
+import 'package:dart_uuid/uuid_type.dart';
 import 'package:test/test.dart';
-import 'package:uuid_type/uuid_type.dart';
 
 import 'test_data.dart';
 
