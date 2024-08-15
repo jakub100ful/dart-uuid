@@ -28,10 +28,10 @@ RFC 4122 Version support:
 ## Getting Started
 
 ### Installation
-1. Add an entry in your `pubspec.yaml` for `uuid_type`
+1. Add an entry in your `pubspec.yaml` for `dart_uuid`
 ```yaml
 dependencies:
-  uuid_type: ^2.0.0
+  dart_uuid: ^1.0.0
 ```
 2. Run `pub get` (`flutter packages get` for Flutter)
 3. Import
@@ -66,4 +66,4 @@ See [CHANGELOG](CHANGELOG.md)
 Please file bugs and feature requests at the [issue tracker][tracker].
 
 
-[tracker]: https://github.com/denixport/dart-uuid/issues
+[tracker]: https://github.com/jakub100ful/dart-uuid/issues

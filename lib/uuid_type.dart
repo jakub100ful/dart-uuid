@@ -1,7 +1,7 @@
 // Copyright (c) 2018-2021, Denis Portnov. All rights reserved.
 // Released under MIT License that can be found in the LICENSE file.
 
-library uuid_type;
+library dart_uuid;
 
 /// This library provides UUID type for Dart. It allows you to read UUID from
 /// string and binary representations, use it as `Map` key,

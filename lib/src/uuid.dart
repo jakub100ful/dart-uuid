@@ -1,7 +1,7 @@
 // Copyright (c) 2018-2021, Denis Portnov. All rights reserved.
 // Released under MIT License that can be found in the LICENSE file.
 
-library uuid_type;
+library dart_uuid;
 
 import 'dart:typed_data' show Uint8List;
 
@@ -254,21 +254,21 @@ class _Uuid implements Uuid {
     }
 
     var x = (bytes[offset + 0] << 24) |
-    (bytes[offset + 1] << 16) |
-    (bytes[offset + 2] << 8) |
-    bytes[offset + 3];
+        (bytes[offset + 1] << 16) |
+        (bytes[offset + 2] << 8) |
+        bytes[offset + 3];
     var y = (bytes[offset + 4] << 24) |
-    (bytes[offset + 5] << 16) |
-    (bytes[offset + 6] << 8) |
-    bytes[offset + 7];
+        (bytes[offset + 5] << 16) |
+        (bytes[offset + 6] << 8) |
+        bytes[offset + 7];
     var z = (bytes[offset + 8] << 24) |
-    (bytes[offset + 9] << 16) |
-    (bytes[offset + 10] << 8) |
-    bytes[offset + 11];
+        (bytes[offset + 9] << 16) |
+        (bytes[offset + 10] << 8) |
+        bytes[offset + 11];
     var w = (bytes[offset + 12] << 24) |
-    (bytes[offset + 13] << 16) |
-    (bytes[offset + 14] << 8) |
-    bytes[offset + 15];
+        (bytes[offset + 13] << 16) |
+        (bytes[offset + 14] << 8) |
+        bytes[offset + 15];
 
     if ((y | z | x | w) == 0) return nil;
 
