@@ -28,21 +28,21 @@ RFC 4122 Version support:
 ## Getting Started
 
 ### Installation
-1. Add an entry in your `pubspec.yaml` for `dart_uuid`
+1. Add an entry in your `pubspec.yaml` for `uuid_type`
 ```yaml
 dependencies:
-  dart_uuid: ^1.0.0
+  uuid_type: ^1.0.0
 ```
 2. Run `pub get` (`flutter packages get` for Flutter)
 3. Import
 ```dart
-import 'package:dart_uuid/uuid_type.dart';
+import 'package:uuid_type/uuid_type.dart';
 ```
 
 ### Usage
 Generate UUIDs
 ```dart
-import 'package:dart_uuid/uuid_type.dart';
+import 'package:uuid_type/uuid_type.dart';
 
 void main() {
   var u = TimeUuidGenerator().generate();

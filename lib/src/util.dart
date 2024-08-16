@@ -1,7 +1,7 @@
 // Copyright (c) 2018-2021, Denis Portnov. All rights reserved.
 // Released under MIT License that can be found in the LICENSE file.
 
-library dart_uuid.util;
+library uuid_type.util;
 
 import 'generators.dart';
 import 'uuid.dart';

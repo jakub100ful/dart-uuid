@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:dart_uuid/uuid_type.dart';
+import 'package:uuid_type/uuid_type.dart';
 
 void main() {
   //

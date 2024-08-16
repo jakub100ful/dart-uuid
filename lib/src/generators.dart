@@ -1,7 +1,7 @@
 // Copyright (c) 2018-2021, Denis Portnov. All rights reserved.
 // Released under MIT License that can be found in the LICENSE file.
 
-library dart_uuid.generators;
+library uuid_type.generators;
 
 import 'dart:convert' show utf8;
 import 'dart:math' show Random;
